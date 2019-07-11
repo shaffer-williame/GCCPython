@@ -1,0 +1,13 @@
+# ----------------------------------------------------------------------------------------------
+# This exercise prompt is provided as an incomplete python script.
+# You must input the correct information into the code where you find hashtags "#"
+# If you fail to replace all the items that have been omitted, the script will not run properly.
+# ----------------------------------------------------------------------------------------------
+#
+# Task 1- import the math module
+#
+import math
+# Here we are setting the variable of "A" to the values of "pi" as provided by the function "pi" in the math module.
+A = math.pi
+# Task 2 - Print the value of the variable "A"
+print(A)
