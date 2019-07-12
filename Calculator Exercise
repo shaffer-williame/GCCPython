@@ -1,0 +1,23 @@
+# ----------------------------------------------------------------------------------------------
+# This exercise prompt is provided as an incomplete python script.
+# You must input the correct information into the code where you find hashtags "#"
+# If you fail to replace all the items that have been omitted, the script will not run properly.
+# ----------------------------------------------------------------------------------------------
+
+# Design a 4-input calculator using prior knowledge over conditional statements and inputs.
+
+print("This is a calculator!")
+num1 = float(#####("Enter your first number:"))
+oper = #####("Enter in a basic operator:")
+num2 = float(#####("Enter your second number:"))
+
+## oper == "+":
+   print(num1 # num2)
+#### oper == "-":
+   print(num1 # num2)
+#### oper == "*":
+   print(num1 # num2)
+#### oper == "/":
+   print(num1 # num2)
+####:
+   print("Invalid operator entered.")
