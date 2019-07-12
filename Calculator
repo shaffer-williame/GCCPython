@@ -1,6 +1,3 @@
-# Here is a very elementary 4-input calculator using
-# prior knowledge over conditional statements and inputs.
-
 print("This is a calculator!")
 num1 = float(input("Enter your first number:"))
 oper = input("Enter in a basic operator:")
