@@ -1,0 +1,35 @@
+# ----------------------------------------------------------------------------------------------
+# This exercise prompt is provided as an incomplete python script.
+# You must input the correct information into the code where you find hashtags "#"
+# If you fail to replace all the items that have been omitted, the script will not run properly.
+# ----------------------------------------------------------------------------------------------
+
+# Create a program that solves problems that require using the Pythagorean Theorem
+
+from math import ####
+
+print("Here is a Pythagorean theorem calculator!")
+print("Assume the sides are a, b, and c.")
+print("Where c is the hypotenuse.")
+usr_side = #####('Enter a side to calculate:')
+
+if usr_side == "a":
+    side_b = ###(#####('Input the length of side b: '))
+    side_c = ###(#####('Input the length of side c: '))
+    side_a = sqrt((side_c * side_c) - (side_b * side_b))
+    print(#'The length of side a is:#side_a#')
+
+elif usr_side == "b":
+    side_a = ###(#####('Input the length of side a: '))
+    side_c = ###(#####('Input the length of side c: '))
+    side_b = sqrt(side_c * side_c - side_a * side_a)
+    print(#'The length of side b is:#side_b#')
+
+elif usr_side == "c":
+    side_a = ###(#####('Input the length of side a: '))
+    side_b = ###(#####('Input the length of side b: '))
+    side_c = sqrt(side_a * side_a + side_b * side_b)
+    print(#'The length of side c is:#side_c#')
+
+else:
+    print('Please select a side between a, b, c')
